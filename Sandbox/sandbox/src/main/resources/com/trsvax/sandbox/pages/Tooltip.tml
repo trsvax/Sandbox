@@ -1,0 +1,12 @@
+<html t:type="layout" title="sandbox Tooltip"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+      <h1>Tooltip</h1>
+      
+      <t:pagelink page="Tooltip"  data-title="first tooltip"  t:mixins="tb/tooltip" tooltipOptions="{placement: 'bottom'}">link</t:pagelink>
+      
+      <div t:type="any" data-title="div tooltip"  t:mixins="tb/tooltip" tooltipOptions="{placement: 'bottom'}">div</div>
+      
+      <span t:type="any" data-title="span tooltip"  t:mixins="tb/tooltip" tooltipOptions="{placement: 'bottom'}">span</span>
+      
+</html>

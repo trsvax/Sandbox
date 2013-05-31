@@ -1,0 +1,8 @@
+<html t:type="layout" title="sandbox Popover"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+      <h1>Popover</h1>
+      
+      <t:pagelink page="Popover"  data-content="first popover"  t:mixins="tb/popover" popoverOptions="{trigger: 'hover'}">link</t:pagelink>
+      
+</html>
