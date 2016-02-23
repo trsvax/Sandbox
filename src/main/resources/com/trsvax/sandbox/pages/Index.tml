@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+<body>
+
+<dl>
+
+<dt>Default value</dt>
+<dd><t:parm /></dd>
+
+<dt>value from page</dt>
+<dd><t:parm test="literal:PageHello"/></dd>
+
+<dt>value from Mixin</dt>
+<dd><t:parm t:mixins="parmMixin"/></dd>
+
+<dt>value from Page property</dt>
+<dd><t:parm  test="hello" t:mixins="parmMixin"/></dd>
+
+</dl>
+
+	
+	
+	
+	
+</body>
+</html>
